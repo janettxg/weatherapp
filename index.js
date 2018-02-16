@@ -13,5 +13,5 @@ function getWeatherData(url){
 }
 
 function getApiUrl(newZip){
-    return `http://api.openweathermap.org/data/2.5/weather?zip=${newZip}&APPID=af23f0fb6b37a45e1733df432b7737e6`;
+    return `https://api.openweathermap.org/data/2.5/weather?zip=${newZip}&APPID=af23f0fb6b37a45e1733df432b7737e6`;
 }
